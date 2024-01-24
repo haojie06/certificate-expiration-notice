@@ -1,0 +1,12 @@
+[package]
+name = "certificate-expiration-notice"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rustls = "0.22.2"
+toml = "0.8.8"
+webpki-roots = "0.26.0"
+x509-parser = "0.15.1"
